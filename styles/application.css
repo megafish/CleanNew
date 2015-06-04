@@ -1,0 +1,44 @@
+body {
+  background: #F9F9F9;
+  font-size: 16px;
+}
+
+header {
+  background: #FFFFFF;
+  overflow: auto;
+  padding: 20px 70px;
+}
+
+h1 {
+  float: left;
+}
+
+ul {
+
+}
+
+nav {
+  float: right;
+  font-family: sans-serif;
+}
+
+li {
+  color: #222;
+  display: inline;
+  letter-spacing: 0.1em;
+  padding-right: 30px;
+  opacity: 0.8;
+
+}
+
+nav a {
+  color: inherit;
+  font-size: 0.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.3s ease-out;
+}
+
+nav a:hover {
+  color: #E7746F;
+}
