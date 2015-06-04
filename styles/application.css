@@ -70,3 +70,32 @@ body {
 
 /* Footer Styles */
 
+.page-footer {
+  background: black;
+  padding: 40px 70px;
+}
+
+.social-links {
+  color: rgba(255,255,255,0.2);
+  text-align: center;
+}
+
+.social-links a {
+  color: inherit;
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  text-decoration: none;
+  border-radius: 3px;
+  transition: color 0.3s ease-out;
+  transition: border-color 0.4s ease-out;
+}
+
+.social-links a:hover {
+  border-color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8);
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 12px;
+}
