@@ -16,14 +16,30 @@ h1 {
   opacity: 0.8;
   font-size: 1.4em;
   text-transform: uppercase;
-  color: black;
+  color: #966746;
   font-weight: bold;
+}
+
+h1:before {
+  content: '';
+  display: block;
+  background: red;
+  width: 1em;
+  height: 1em;
+  float: left;
+  margin-right: 0.4em;
+  background: url('../images/passageslogosmall.png') center center no-repeat;
+  background-size: contain;
 }
 
 h1 a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.2s ease-out;
+}
 
+h1 a:hover {
+  color: #222;
 }
 
 ul {
