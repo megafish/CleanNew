@@ -3,14 +3,16 @@ body {
   font-size: 16px;
 }
 
-header {
+/* Header Styles */
+
+.page-header {
   background: #FFFFFF;
   border-bottom: 1px solid rgba(0,0,0,0.05);
   overflow: auto;
   padding: 20px 70px;
 }
 
-h1 {
+.page-header h1 {
   color: #966746;
   float: left;
   font-size: 1.4em;
@@ -20,7 +22,7 @@ h1 {
   text-transform: uppercase;
 }
 
-h1:before {
+.page-header h1:before {
   background: url('../images/passageslogosmall.png') center center no-repeat;
   background-size: contain;
   content: '';
@@ -31,22 +33,22 @@ h1:before {
   width: 1em;
 }
 
-h1 a {
+.page-header h1 a {
   color: inherit;
   text-decoration: none;
   transition: color 0.2s ease-out;
 }
 
-h1 a:hover {
+.page-header h1 a:hover {
   color: #222;
 }
 
-nav {
+.page-header nav {
   float: right;
   font-family: sans-serif;
 }
 
-li {
+.page-header li {
   color: #222;
   display: inline;
   font-size: 0.7em;
@@ -56,12 +58,15 @@ li {
   text-transform: uppercase;
 }
 
-nav a {
+.page-header nav a {
   color: inherit;
   text-decoration: none;
   transition: color 0.3s ease-out;
 }
 
-nav a:hover {
+.page-header nav a:hover {
   color: #E7746F;
 }
+
+/* Footer Styles */
+
