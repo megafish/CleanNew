@@ -5,45 +5,40 @@ body {
 
 header {
   background: #FFFFFF;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
   overflow: auto;
   padding: 20px 70px;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
 h1 {
+  color: #966746;
   float: left;
+  font-size: 1.4em;
+  font-weight: bold;
   letter-spacing: 0.1em;
   opacity: 0.8;
-  font-size: 1.4em;
   text-transform: uppercase;
-  color: #966746;
-  font-weight: bold;
 }
 
 h1:before {
-  content: '';
-  display: block;
-  background: red;
-  width: 1em;
-  height: 1em;
-  float: left;
-  margin-right: 0.4em;
   background: url('../images/passageslogosmall.png') center center no-repeat;
   background-size: contain;
+  content: '';
+  display: block;
+  float: left;
+  height: 1em;
+  margin-right: 0.4em;
+  width: 1em;
 }
 
 h1 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
   transition: color 0.2s ease-out;
 }
 
 h1 a:hover {
   color: #222;
-}
-
-ul {
-
 }
 
 nav {
@@ -54,10 +49,10 @@ nav {
 li {
   color: #222;
   display: inline;
-  letter-spacing: 0.1em;
-  padding-right: 30px;
-  opacity: 0.8;
   font-size: 0.7em;
+  letter-spacing: 0.1em;
+  opacity: 0.8;
+  padding-right: 30px;
   text-transform: uppercase;
 }
 
